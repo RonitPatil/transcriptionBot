@@ -14,7 +14,7 @@ def process_url(url, download_path):
         st.markdown("### Please provide a valid URL from Instagram or YouTube.")
 
 with st.sidebar:
-    st.markdown("### Enter URL before asking a question")
+    st.markdown("### Enter URL(reels or shorts) for transcription")
     url = st.text_area("Enter URL:", key="url_uploader", label_visibility='hidden')
 
 if url:
